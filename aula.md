@@ -1,0 +1,3 @@
+* Estrutura do Projeto
+
+- Save exact - Nesta aula, será explicado como configurar a opção save-exact no arquivo .npmrc, que permite fixar as versões exatas das dependências instaladas em um projeto. Isso garante a estabilidade e consistência do ambiente de desenvolvimento e produção, prevenindo problemas de compatibilidade e incompatibilidade entre as versões das dependências. Além disso, esta configuração ajuda a evitar problemas de segurança, pois impede a instalação de versões vulneráveis das dependências.
