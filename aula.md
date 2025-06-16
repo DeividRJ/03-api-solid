@@ -5,3 +5,5 @@
 - Carregando variáveis ambiente - Nessa aula é explicado como utilizar o dotenv para carregar as variáveis ambiente no projeto e o zod para fazer a validação dessas variáveis, garantindo assim que elas estejam em um formato correto e seguro.
 
 - Configurando ESLint - Essa aula ensina como configurar o ESLint, uma ferramenta que ajuda a manter a consistência do código em projetos de software, e utiliza a configuração pré-existente @rocketseat/eslint-config.
+
+- Criando aliases de importação - Nessa aula, você aprenderá como configurar aliases de importação para melhorar a organização e legibilidade do seu código. Essa configuração pode ser feita por meio dos paths do TypeScript e será explicada de forma simples e prática.
