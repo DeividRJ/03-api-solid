@@ -27,3 +27,7 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 ## Utilizando o Docker Compose
 
 - Essa aula ensina a criar o arquivo do Docker Compose, que é um arquivo YAML, para definir os serviços da aplicação e suas configurações, como a imagem do Postgres a ser usada, as portas a serem expostas, as variáveis ambiente, entre outros. Com isso, é possível iniciar o container do Postgres com apenas um comando, que utiliza as configurações do arquivo do Docker Compose.
+
+## Criando Schema do Prisma
+- Nessa aula, serão criados os models CheckIn e Gym no arquivo de schema do Prisma.
+- password hash - Irreversível: Não pode ser transformado de volta na senha original, melhor uso para armazenamento de senhas, na verificação compara o hash da senha digitada com o hash armazenado.
