@@ -31,3 +31,6 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 ## Criando Schema do Prisma
 - Nessa aula, serão criados os models CheckIn e Gym no arquivo de schema do Prisma.
 - password hash - Irreversível: Não pode ser transformado de volta na senha original, melhor uso para armazenamento de senhas, na verificação compara o hash da senha digitada com o hash armazenado.
+
+## Relacionamentos entre tabelas
+- Nessa aula, serão explicados os conceitos básicos de relacionamentos em bancos de dados, incluindo os tipos 1 para 1, 1 para N e N para N. Em seguida, será mostrado como configurar esses relacionamentos no arquivo de schema do Prisma para as entidades User, CheckIn e Gym. obs: o primeiro campo da relação serve para armazenar a relação dos bancos de dados e ele não gera uma coluna.
