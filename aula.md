@@ -12,7 +12,7 @@
 
 Fundamentos do Prisma ORM - Nesta aula, será explicado o que é um ORM e suas vantagens em relação aos drivers nativos e query builders. Em seguida, será apresentado o Prisma ORM, suas vantagens e como configurá-lo para ser utilizado no projeto, obs: O Prisma ORM é uma ferramenta que facilita o mapeamento, a criação e o acesso a dados em um banco de dados relacional por meio de código TypeScript/JavaScript, permitindo interações seguras, tipadas e eficientes com tabelas e registros.
 
-* Docker
+## Docker
 
 - Essa aula é uma introdução ao Docker, explicando o que é, como funciona e quais são os benefícios de utilizá-lo para rodar serviços como PostgreSQL, Redis, Mongo e outros.
 
@@ -20,6 +20,10 @@ O que é o Docker?
 
 Docker é uma plataforma de software que permite criar, implantar e executar aplicativos em contêineres virtuais. Ele permite que as aplicações e seus componentes sejam empacotados em um contêiner isolado e portátil, que pode ser executado em qualquer ambiente que tenha o Docker instalado, sem a necessidade de instalar dependências adicionais ou fazer grandes configurações. Com o Docker, é possível ter ambientes de desenvolvimento, teste e produção consistentes, seguros e escaláveis, aumentando a eficiência e a produtividade do desenvolvimento de software.
 
-* PostgreSQL com Docker
+## PostgreSQL com Docker
 
 - Nessa aula, você vai aprender a utilizar comandos básicos do Docker para criar um container do Postgres, iniciá-lo, pará-lo e removê-lo. Com isso, você poderá utilizar o banco de dados dentro do container em sua aplicação local, sem precisar instalá-lo diretamente na sua máquina
+
+## Utilizando o Docker Compose
+
+- Essa aula ensina a criar o arquivo do Docker Compose, que é um arquivo YAML, para definir os serviços da aplicação e suas configurações, como a imagem do Postgres a ser usada, as portas a serem expostas, as variáveis ambiente, entre outros. Com isso, é possível iniciar o container do Postgres com apenas um comando, que utiliza as configurações do arquivo do Docker Compose.
