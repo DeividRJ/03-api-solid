@@ -39,3 +39,6 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 
 ##  Criação de um usuário
 - Ainda de forma bem simples, será criado uma rota para a inserção de usuários.
+
+## Controller de registro 
+- Nesta aula, será criado um controller para receber as requisições HTTP e tratar as informações, podendo realizar ações como validar dados, buscar informações do banco de dados e enviar uma resposta ao cliente. O controller é uma parte importante da arquitetura de um servidor web, e ajuda a manter as regras de negócio separadas do restante da aplicação.
