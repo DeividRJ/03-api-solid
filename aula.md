@@ -34,3 +34,8 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 
 ## Relacionamentos entre tabelas
 - Nessa aula, serão explicados os conceitos básicos de relacionamentos em bancos de dados, incluindo os tipos 1 para 1, 1 para N e N para N. Em seguida, será mostrado como configurar esses relacionamentos no arquivo de schema do Prisma para as entidades User, CheckIn e Gym. obs: o primeiro campo da relação serve para armazenar a relação dos bancos de dados e ele não gera uma coluna.
+
+* Caso de Uso e Design Patterns
+
+##  Criação de um usuário
+- Ainda de forma bem simples, será criado uma rota para a inserção de usuários.
