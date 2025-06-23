@@ -42,3 +42,9 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 
 ## Controller de registro 
 - Nesta aula, será criado um controller para receber as requisições HTTP e tratar as informações, podendo realizar ações como validar dados, buscar informações do banco de dados e enviar uma resposta ao cliente. O controller é uma parte importante da arquitetura de um servidor web, e ajuda a manter as regras de negócio separadas do restante da aplicação.
+
+## Hash da senha e validação
+- Nesta aula, será ensinado como utilizar o pacote bcryptjs para criar um hash da senha do usuário antes de inserir no banco de dados. Também será explicado como realizar a validação do email recebido na requisição antes de inserir o usuário.
+
+
+
