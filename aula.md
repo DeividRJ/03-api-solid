@@ -46,5 +46,5 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 ## Hash da senha e validação
 - Nesta aula, será ensinado como utilizar o pacote bcryptjs para criar um hash da senha do usuário antes de inserir no banco de dados. Também será explicado como realizar a validação do email recebido na requisição antes de inserir o usuário.
 
-
-
+## Caso de uso de registro 
+- Nessa aula será explicado o conceito de Use Case Pattern e como ele pode ser aplicado em um projeto Node.js. Será criado um Use Case para a criação de usuário, onde a lógica de negócio será separada do controller.
