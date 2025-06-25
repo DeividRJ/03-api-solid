@@ -48,3 +48,6 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 
 ## Caso de uso de registro 
 - Nessa aula será explicado o conceito de Use Case Pattern e como ele pode ser aplicado em um projeto Node.js. Será criado um Use Case para a criação de usuário, onde a lógica de negócio será separada do controller.
+
+## Repository Pattern
+- Nessa aula, vamos entender o que é o Repository Pattern e seus benefícios na organização do código. Em seguida, vamos implementar o repositório de usuários utilizando o Prisma para realizar as operações no banco de dados.
