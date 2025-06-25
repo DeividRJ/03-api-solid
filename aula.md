@@ -56,3 +56,6 @@ Docker é uma plataforma de software que permite criar, implantar e executar apl
 - Nessa aula, você aprenderá sobre o princípio da inversão de dependência (DIP) do SOLID e como implementá-lo no use-case de registro de usuário, sobre a dependência do usersRepository.
 
 O DIP propõe que as camadas mais altas de uma aplicação não dependam diretamente das camadas mais baixas, mas sim de uma abstração entre elas. Isso permite maior flexibilidade e facilidade de manutenção do código.
+
+## Interface do repositório
+- Nessa aula, vamos criar a interface de contrato do repositório de usuários, que definirá quais métodos deverão ser implementados pela classe concreta de repositório. Essa interface será utilizada para realizar a inversão de dependência no use-case de registro de usuário, seguindo o princípio da Dependency Inversion do SOLID.
