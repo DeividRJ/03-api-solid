@@ -59,3 +59,6 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 
 ## Interface do repositório
 - Nessa aula, vamos criar a interface de contrato do repositório de usuários, que definirá quais métodos deverão ser implementados pela classe concreta de repositório. Essa interface será utilizada para realizar a inversão de dependência no use-case de registro de usuário, seguindo o princípio da Dependency Inversion do SOLID.
+
+## Lidando com erros do use case
+- Nesta aula, você aprenderá a criar um arquivo de erro personalizado para o caso de um e-mail já existente ao criar um usuário. Dessa forma, a resposta da API será mais clara e amigável para o usuário final.
