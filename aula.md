@@ -62,3 +62,12 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 
 ## Lidando com erros do use case
 - Nesta aula, você aprenderá a criar um arquivo de erro personalizado para o caso de um e-mail já existente ao criar um usuário. Dessa forma, a resposta da API será mais clara e amigável para o usuário final.
+
+## Handler de erros global
+- Nessa aula será ensinado como criar um Error Handler global na aplicação utilizando o método setErrorHandler do Fastify. Isso permitirá tratar erros de maneira centralizada, melhorando a manutenção e legibilidade do código.
+
+
+
+
+
+
