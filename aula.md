@@ -83,5 +83,7 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 
 - O Coverage é uma métrica utilizada para medir a quantidade de código que está sendo testado em uma aplicação. A aula irá explicar como configurar o comando test:coverage no package.json para gerar um relatório de cobertura de testes da aplicação.
 
+## Utilizando UI do Vitest
+- O Vitest é uma ferramenta de testes para Node.js que oferece uma interface de usuário (UI) para monitorar o status dos testes, logs, gráficos e outras informações úteis durante a execução dos testes. A aula pode ser focada em demonstrar as funcionalidades da UI do Vitest e como usá-las para analisar os resultados dos testes.
 
 
