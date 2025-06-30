@@ -75,6 +75,10 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Primeiro teste unitário
 - Nesta aula, vamos criar o primeiro teste unitário para o use-case de criação de usuário. Vamos validar se está sendo feito o hash da senha corretamente. Também vamos aprender sobre como informar um objeto "fake" na inversão de dependência, para não realizar operações no banco durante um teste unitário.
 
+##  In-Memory Databases
+
+- Nessa aula, será explicado sobre o conceito de InMemoryTestDatabase, que permite criar um banco de dados em memória para testes unitários, sem afetar o banco de dados real. Será criada a classe de repositório em memória dos usuários e implementada a switch de testes do use-case de criação de usuários, utilizando esse banco de dados em memória.
+
 
 
 
