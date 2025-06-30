@@ -66,9 +66,14 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Handler de erros global
 - Nessa aula será ensinado como criar um Error Handler global na aplicação utilizando o método setErrorHandler do Fastify. Isso permitirá tratar erros de maneira centralizada, melhorando a manutenção e legibilidade do código.
 
+
+* Design Patterns & Testes
+
 ## Configurando Vitest
 - Nessa aula, você aprenderá como configurar o Vite e o plugin vite-tsconfig-paths na aplicação para permitir que o Vite entenda os paths definidos no arquivo tsconfig.json.
 
+## Primeiro teste unitário
+- Nesta aula, vamos criar o primeiro teste unitário para o use-case de criação de usuário. Vamos validar se está sendo feito o hash da senha corretamente. Também vamos aprender sobre como informar um objeto "fake" na inversão de dependência, para não realizar operações no banco durante um teste unitário.
 
 
 
