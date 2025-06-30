@@ -66,6 +66,9 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Handler de erros global
 - Nessa aula será ensinado como criar um Error Handler global na aplicação utilizando o método setErrorHandler do Fastify. Isso permitirá tratar erros de maneira centralizada, melhorando a manutenção e legibilidade do código.
 
+## Configurando Vitest
+- Nessa aula, você aprenderá como configurar o Vite e o plugin vite-tsconfig-paths na aplicação para permitir que o Vite entenda os paths definidos no arquivo tsconfig.json.
+
 
 
 
