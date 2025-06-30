@@ -86,4 +86,7 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Utilizando UI do Vitest
 - O Vitest é uma ferramenta de testes para Node.js que oferece uma interface de usuário (UI) para monitorar o status dos testes, logs, gráficos e outras informações úteis durante a execução dos testes. A aula pode ser focada em demonstrar as funcionalidades da UI do Vitest e como usá-las para analisar os resultados dos testes.
 
+## Caso de uso de autenticação
+- Nesta aula, será iniciado o desenvolvimento da funcionalidade de autenticação em uma aplicação web. Será criado o use-case responsável por autenticar o usuário. Na próxima aula, será realizado a criação dos testes unitários e do controller que irá utilizar esse use-case.
+
 
