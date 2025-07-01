@@ -103,6 +103,8 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Caso de uso de perfil
 - Nessa aula, vamos criar o use case para recuperar o perfil do usuário logado na aplicação e também o teste unitário para garantir que o retorno está correto.
 
+## Caso de uso de check-in
+- Nessa aula será criado o use case de check-in em uma academia e seu respectivo teste unitário. Além disso, será feita uma pequena refatoração para incluir o await antes de expect que utilizem o .rejects. O objetivo é garantir que o teste não falhe por não aguardar a resolução de uma Promise.
 
 
 
