@@ -106,6 +106,18 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Caso de uso de check-in
 - Nessa aula será criado o use case de check-in em uma academia e seu respectivo teste unitário. Além disso, será feita uma pequena refatoração para incluir o await antes de expect que utilizem o .rejects. O objetivo é garantir que o teste não falhe por não aguardar a resolução de uma Promise.
 
+## TDD 
+- (Test Driven Development) é uma abordagem de desenvolvimento de software em que os testes são escritos antes do código. Na aula, será explicado o conceito de TDD e aplicado no desenvolvimento da funcionalidade que valida se um usuário já realizou check-in no mesmo dia. Primeiramente, será criado o teste unitário e em seguida, o código será desenvolvido para que esse teste passe.
+
+Red, green and Refactor:
+
+O conceito "red, green and refactor" é uma abordagem do TDD (Test-Driven Development) para desenvolvimento de software. Consiste em três etapas:
+
+Red (Vermelho): nesta fase, o desenvolvedor escreve um teste que deve falhar, ou seja, ele garante que o teste não passará sem implementar o código necessário.
+Green (Verde): aqui, o desenvolvedor escreve a quantidade mínima de código necessária para fazer o teste passar.
+Refactor (Refatorar): após o teste passar, o desenvolvedor refatora o código para melhorar a qualidade, sem alterar seu comportamento.
+Essa abordagem garante que o código seja desenvolvido com base em testes confiáveis, resultando em um código mais limpo, seguro e fácil de manter.
+
 
 
 
