@@ -97,5 +97,14 @@ O DIP propõe que as camadas mais altas de uma aplicação não dependam diretam
 ## Refatorando instâncias nos testes
 - Nessa aula, vamos aprender a utilizar o método beforeEach para limpar o contexto de testes antes de cada execução, evitando interferências de testes anteriores e garantindo maior confiabilidade nos resultados dos testes.
 
-## Implementando casos de uso - Utilizando Factory Pattern
+## Utilizando Factory Pattern
 - Nesta aula, você aprenderá sobre o conceito de Factory Pattern e como aplicá-lo para instanciar os use-cases de forma mais organizada, ele centraliza a criação de instâncias e fora do factory você só chama a função não precisa saber como usar as dependências.
+
+## Caso de uso de perfil
+- Nessa aula, vamos criar o use case para recuperar o perfil do usuário logado na aplicação e também o teste unitário para garantir que o retorno está correto.
+
+
+
+
+
+
