@@ -118,6 +118,8 @@ Green (Verde): aqui, o desenvolvedor escreve a quantidade mínima de código nec
 Refactor (Refatorar): após o teste passar, o desenvolvedor refatora o código para melhorar a qualidade, sem alterar seu comportamento.
 Essa abordagem garante que o código seja desenvolvido com base em testes confiáveis, resultando em um código mais limpo, seguro e fácil de manter.
 
+## Validando data do check-in
+- Nesta aula, será implementada a validação da data do check-in para garantir que o usuário possa realizar check-ins em diferentes dias, foi usado a instalação direta da biblioteca dayjs para essa aula.
 
 
 
