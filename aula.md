@@ -121,6 +121,17 @@ Essa abordagem garante que o código seja desenvolvido com base em testes confi�
 ## Validando data do check-in
 - Nesta aula, será implementada a validação da data do check-in para garantir que o usuário possa realizar check-ins em diferentes dias, foi usado a instalação direta da biblioteca dayjs para essa aula.
 
+## Implementando casos de uso - Validando distância do check-in
+- Nesta aula, será criado um teste unitário para a validação de que o check-in só pode ser realizado se o usuário estiver em um raio de até 100 metros da academia. Em seguida, será implementada a funcionalidade correspondente no use-case de check-in.
+
+função aplicada pra medir a distância :
+
+Primeiro, a função verifica se as duas coordenadas são iguais e retorna 0 se for o caso, indicando que a distância entre elas é zero.
+
+Em seguida, a função converte as coordenadas de graus para radianos e calcula a diferença de longitude entre as duas coordenadas. A fórmula de Haversine é usada para calcular a distância entre os dois pontos. Essa fórmula usa a lei dos cossenos para calcular a distância entre dois pontos em uma esfera, como a Terra.
+
+A distância é então convertida em milhas e depois em quilômetros, e o resultado é retornado como um número de ponto flutuante que representa a distância em quilômetros entre as duas coordenadas.
+
 
 
 
