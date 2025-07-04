@@ -132,6 +132,9 @@ Em seguida, a função converte as coordenadas de graus para radianos e calcula 
 
 A distância é então convertida em milhas e depois em quilômetros, e o resultado é retornado como um número de ponto flutuante que representa a distância em quilômetros entre as duas coordenadas.
 
+## Caso de uso de criação de academia
+- Nessa aula, é criado o use-case de criação de academia e seu respectivo teste unitário. Além disso, há uma refatoração no teste de check-in para utilizar o método create do gymsRepository e também é criado erros específicos para a distância entre a academia e o usuário e também quantidade máxima de check-ins em um dia.
+
 
 
 
