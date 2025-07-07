@@ -135,6 +135,8 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 ## Caso de uso de criação de academia
 - Nessa aula, é criado o use-case de criação de academia e seu respectivo teste unitário. Além disso, há uma refatoração no teste de check-in para utilizar o método create do gymsRepository e também é criado erros específicos para a distância entre a academia e o usuário e também quantidade máxima de check-ins em um dia.
 
+## Caso de uso de histórico
+- Nessa aula, será criado o use-case de histórico de check-ins de um usuário com paginação, permitindo que o usuário possa visualizar seus check-ins anteriores. Além disso, serão criados os testes unitários para validar o funcionamento correto desse use-case.
 
 
 
