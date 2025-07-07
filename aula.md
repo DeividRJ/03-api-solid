@@ -138,5 +138,7 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 ## Caso de uso de histórico
 - Nessa aula, será criado o use-case de histórico de check-ins de um usuário com paginação, permitindo que o usuário possa visualizar seus check-ins anteriores. Além disso, serão criados os testes unitários para validar o funcionamento correto desse use-case.
 
+## Caso de uso de métricas
+- Nesta aula, será criado o use-case responsável por obter o número de check-ins realizados por um usuário, assim como seu respectivo teste unitário.
 
 
