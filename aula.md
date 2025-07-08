@@ -141,4 +141,6 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 ## Caso de uso de métricas
 - Nesta aula, será criado o use-case responsável por obter o número de check-ins realizados por um usuário, assim como seu respectivo teste unitário.
 
+## Caso de uso de busca de academias
+- Nessa aula será criado o use-case para buscar academias pelo título, utilizando paginação e também serão criados os testes unitários para garantir o seu correto funcionamento.
 
