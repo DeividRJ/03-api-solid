@@ -144,3 +144,5 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 ## Caso de uso de busca de academias
 - Nessa aula será criado o use-case para buscar academias pelo título, utilizando paginação e também serão criados os testes unitários para garantir o seu correto funcionamento.
 
+## Caso de uso de academias próximas
+- Nessa aula, será criado o use-case para listar academias próximas ao usuário, utilizando a latitude e longitude do usuário e da academia para o cálculo da distância. Também será criado o respectivo teste unitário para validar a funcionalidade.
