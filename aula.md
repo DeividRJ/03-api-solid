@@ -149,3 +149,6 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 
 ## Caso de uso de validar de check-in
 - Nessa aula será criado o use-case de validação de um check-in, ou seja, verificar se um usuário tem permissão para realizar um check-in em uma academia. Também serão criados os testes unitários para garantir o correto funcionamento do código.
+
+## Validando horário do check-in
+- Nesta aula, será aplicada a metodologia TDD para implementar a validação de tempo no use-case de validar um check-in. A implementação seguirá o processo red-green-refactor, em que primeiro serão escritos os testes para a funcionalidade, em seguida, a funcionalidade será implementada para passar nos testes e, por fim, será realizada uma refatoração para melhorar o código. A validação deve permitir que o check-in seja válido somente até 20 minutos após sua criação.
