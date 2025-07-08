@@ -146,3 +146,6 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 
 ## Caso de uso de academias próximas
 - Nessa aula, será criado o use-case para listar academias próximas ao usuário, utilizando a latitude e longitude do usuário e da academia para o cálculo da distância. Também será criado o respectivo teste unitário para validar a funcionalidade.
+
+## Caso de uso de validar de check-in
+- Nessa aula será criado o use-case de validação de um check-in, ou seja, verificar se um usuário tem permissão para realizar um check-in em uma academia. Também serão criados os testes unitários para garantir o correto funcionamento do código.
