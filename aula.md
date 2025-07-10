@@ -162,3 +162,6 @@ A distância é então convertida em milhas e depois em quilômetros, e o result
 - Essa aula irá implementar o repositório de Gyms seguindo a interface de contrato utilizando o Prisma. 
 
 A query SQL apresentada está realizando uma busca de todas as academias que estão a uma distância máxima de 10km da localização representada pela latitude e longitude informadas como parâmetros. A fórmula utilizada no WHERE é conhecida como Haversine Formula, e é utilizada para calcular a distância entre dois pontos em um globo. O resultado é multiplicado por 6371 para obter a distância em quilômetros.
+
+## Factories dos casos de uso
+- Nessa aula, serão criados os arquivos de factory de todos os use-cases restantes que ainda não foram implementados.
