@@ -169,7 +169,8 @@ A query SQL apresentada está realizando uma busca de todas as academias que est
 ## Princípios da autenticação JWT
 - Nessa aula, serão apresentadas duas estratégias de autenticação muito utilizadas em aplicações web: Basic Auth e JWT (JSON Web Token). Será explicado o funcionamento de cada uma e as suas principais diferenças. Além disso, será feita uma explanação mais detalhada sobre os conceitos por trás do JWT, como ele é gerado, a sua estrutura e os dados que podem ser armazenados nele.
 
-
+## Implementando JWT no Fastify
+- Nessa aula, é utilizada o pacote @fastify/jwt para implementar a funcionalidade de JWT na aplicação, foi criado o types para tipar o código usado dentro do payload, foi usado também o jwtVerify que é um método do fastify-jwt para verificar se o token JWT é válido.
 
 
 
