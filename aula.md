@@ -176,5 +176,8 @@ A query SQL apresentada está realizando uma busca de todas as academias que est
 
 - Nessa aula, é feito uso do use-case de perfil de usuário no controller de perfil. Além disso, é criado um middleware para validar o JWT e retornar uma mensagem de erro personalizada.
 
+# Aprendendo sobre Test Environment
+
+Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa aplicação, focando em como o front-end interage com a API. Discutimos a importância de usar um banco de dados separado para testes, evitando interferências entre eles. Também abordamos a necessidade de manter um ambiente limpo para cada teste, mas sem sacrificar a performance. Vou mostrar como configurar o Test Environment para gerenciar variáveis e scripts específicos para diferentes suítes de testes, garantindo eficiência e isolamento.
 
 
