@@ -165,3 +165,13 @@ A query SQL apresentada está realizando uma busca de todas as academias que est
 
 ## Factories dos casos de uso
 - Nessa aula, serão criados os arquivos de factory de todos os use-cases restantes que ainda não foram implementados.
+
+## Princípios da autenticação JWT
+- Nessa aula, serão apresentadas duas estratégias de autenticação muito utilizadas em aplicações web: Basic Auth e JWT (JSON Web Token). Será explicado o funcionamento de cada uma e as suas principais diferenças. Além disso, será feita uma explanação mais detalhada sobre os conceitos por trás do JWT, como ele é gerado, a sua estrutura e os dados que podem ser armazenados nele.
+
+
+
+
+
+
+
