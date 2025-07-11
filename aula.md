@@ -180,4 +180,6 @@ A query SQL apresentada está realizando uma busca de todas as academias que est
 
 Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa aplicação, focando em como o front-end interage com a API. Discutimos a importância de usar um banco de dados separado para testes, evitando interferências entre eles. Também abordamos a necessidade de manter um ambiente limpo para cada teste, mas sem sacrificar a performance. Vou mostrar como configurar o Test Environment para gerenciar variáveis e scripts específicos para diferentes suítes de testes, garantindo eficiência e isolamento.
 
+## Criando test environment
+- Nesta aula, vamos explorar a criação de um ambiente de teste para o Prisma utilizando o Vitest, que passou por algumas atualizações. Começamos removendo pacotes obsoletos e instalando novas dependências. Em seguida, ajustamos a configuração do Vitest para que os testes rodem corretamente. Vamos criar um arquivo que gerencia um banco de dados temporário para cada execução de teste, utilizando esquemas do Postgres.
 
