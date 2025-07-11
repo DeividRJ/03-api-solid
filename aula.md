@@ -172,7 +172,9 @@ A query SQL apresentada está realizando uma busca de todas as academias que est
 ## Implementando JWT no Fastify
 - Nessa aula, é utilizada o pacote @fastify/jwt para implementar a funcionalidade de JWT na aplicação, foi criado o types para tipar o código usado dentro do payload, foi usado também o jwtVerify que é um método do fastify-jwt para verificar se o token JWT é válido.
 
+## Controller de perfil
 
+- Nessa aula, é feito uso do use-case de perfil de usuário no controller de perfil. Além disso, é criado um middleware para validar o JWT e retornar uma mensagem de erro personalizada.
 
 
 
