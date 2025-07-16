@@ -191,3 +191,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Teste E2E do perfil
 - Nessa aula, será implementado o teste e2e para o controller de perfil da aplicação, utilizando o supertest para realizar as requisições e validando se a rota está retornando os dados corretos do perfil do usuário logado.
+
+## Controller de criação de academia
+- Nesta aula, o foco é a refatoração do arquivo de rotas, deixando apenas as rotas relacionadas ao recurso de usuários e criando um novo arquivo de rotas para o recurso de academias. Em seguida, é criado o controller para a criação de academias, que será utilizado nas rotas criadas anteriormente.
