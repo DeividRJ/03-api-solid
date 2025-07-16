@@ -188,3 +188,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Teste E2E da autenticação
 - Nesta aula, será implementado um teste e2e para o controller de autenticação. O objetivo do teste é validar se a rota de sessions está retornando um token válido como string. Será utilizado o Supertest para realizar as requisições HTTP e o Jest para escrever e executar os testes.
+
+## Teste E2E do perfil
+- Nessa aula, será implementado o teste e2e para o controller de perfil da aplicação, utilizando o supertest para realizar as requisições e validando se a rota está retornando os dados corretos do perfil do usuário logado.
