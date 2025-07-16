@@ -183,3 +183,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 ## Criando test environment
 - Nesta aula, vamos explorar a criação de um ambiente de teste para o Prisma utilizando o Vitest, que passou por algumas atualizações. Começamos removendo pacotes obsoletos e instalando novas dependências. Em seguida, ajustamos a configuração do Vitest para que os testes rodem corretamente. Vamos criar um arquivo que gerencia um banco de dados temporário para cada execução de teste, utilizando esquemas do Postgres.
 
+## Teste E2E do registro
+- Nessa aula, é implementado o teste end-to-end (e2e) para a criação de usuário na API, utilizando o pacote Supertest para realizar as requisições HTTP. O objetivo é testar a funcionalidade de criação de usuário desde a camada de rota até a camada de persistência do banco de dados, garantindo a integridade do sistema como um todo.
+
