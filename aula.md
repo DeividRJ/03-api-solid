@@ -194,3 +194,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Controller de criação de academia
 - Nesta aula, o foco é a refatoração do arquivo de rotas, deixando apenas as rotas relacionadas ao recurso de usuários e criando um novo arquivo de rotas para o recurso de academias. Em seguida, é criado o controller para a criação de academias, que será utilizado nas rotas criadas anteriormente.
+
+## Controllers & Testes E2E - Controllers das rotas de check-ins
+- Nessa aula, será criado o conjunto de controllers necessários para o recurso de check-ins, incluindo check-in, histórico de check-ins, métricas de check-ins e validação de check-ins. Depois disso, esses controllers serão adicionados ao arquivo de rotas correspondente ao recurso de check-ins.
