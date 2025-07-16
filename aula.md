@@ -186,3 +186,5 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 ## Teste E2E do registro
 - Nessa aula, é implementado o teste end-to-end (e2e) para a criação de usuário na API, utilizando o pacote Supertest para realizar as requisições HTTP. O objetivo é testar a funcionalidade de criação de usuário desde a camada de rota até a camada de persistência do banco de dados, garantindo a integridade do sistema como um todo.
 
+## Teste E2E da autenticação
+- Nesta aula, será implementado um teste e2e para o controller de autenticação. O objetivo do teste é validar se a rota de sessions está retornando um token válido como string. Será utilizado o Supertest para realizar as requisições HTTP e o Jest para escrever e executar os testes.
