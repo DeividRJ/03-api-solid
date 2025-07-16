@@ -200,3 +200,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Controllers & Testes E2E - Testes E2E de rotas de academias
 - Nessa aula, serão implementados testes e2e para as rotas do recurso de academias. Além disso, será realizada uma refatoração para criar uma função utilitária que permite criar e autenticar um usuário durante os testes, foi usado o .coerce para validação na latitude pois estava retornando um erro 400.
+
+## Controllers & Testes E2E - Testes E2E de rotas de check-ins
+- Nessa aula, serão criados os testes e2e para as rotas do recurso de check-ins, utilizando o Supertest e a função utilitária criada anteriormente para autenticar um usuário durante os testes. Serão testadas as funcionalidades de criação de check-in, histórico de check-ins, métricas
