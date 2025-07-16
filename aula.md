@@ -197,3 +197,6 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Controllers & Testes E2E - Controllers das rotas de check-ins
 - Nessa aula, será criado o conjunto de controllers necessários para o recurso de check-ins, incluindo check-in, histórico de check-ins, métricas de check-ins e validação de check-ins. Depois disso, esses controllers serão adicionados ao arquivo de rotas correspondente ao recurso de check-ins.
+
+## Controllers & Testes E2E - Testes E2E de rotas de academias
+- Nessa aula, serão implementados testes e2e para as rotas do recurso de academias. Além disso, será realizada uma refatoração para criar uma função utilitária que permite criar e autenticar um usuário durante os testes, foi usado o .coerce para validação na latitude pois estava retornando um erro 400.
