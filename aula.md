@@ -231,3 +231,15 @@ Na aula, será explicado como funciona esse modelo e como implementar a validaç
 - Nessa aula, o objetivo é corrigir os testes que quebraram após a implementação da validação de role na aplicação. Será necessário ajustar os testes para passar a informação correta de role para as rotas, de acordo com a nova política de RBAC.
 
 
+* CI/CD da aplicação - Executando testes unitários no CI
+
+## Executando testes unitários no CI
+- Nesta aula, você aprenderá sobre CI/CD, suas vantagens e como implementá-lo. Será criada uma GitHub Action para executar os testes unitários automaticamente toda vez que um push for feito no repositório. Isso ajudará a garantir que o código esteja funcionando corretamente antes de ser mesclado na branch principal.
+
+
+
+
+
+
+
+
