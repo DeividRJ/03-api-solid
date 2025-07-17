@@ -221,6 +221,11 @@ O uso de Refresh Tokens é uma prática de segurança recomendada em aplicaçõe
 ## Implementação do refresh token
 - Nesta aula, será realizada a implementação do controller de refresh token, que irá verificar se o token de atualização está presente nos cookies e, se estiver válido, irá gerar um novo token JWT para o usuário, foi feito um tratamento no .set(Cookies, CookieString) pra validar o retorno correto do parâmetro.
 
+## Autorização por cargos (RBAC)
+
+RBAC (Role-Based Access Control) é um modelo de controle de acesso baseado em funções, onde as permissões são atribuídas com base no papel ou função que um usuário possui dentro de uma organização.
+
+Na aula, será explicado como funciona esse modelo e como implementar a validação RBAC na aplicação. Isso inclui a criação de funções de usuário com permissões específicas e a validação dessas permissões em rotas e controllers. A implementação adequada do RBAC pode ajudar a garantir que apenas usuários autorizados possam acessar determinadas partes da aplicação e realizar ações específicas.
 
 
 
