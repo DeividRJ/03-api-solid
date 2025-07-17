@@ -217,3 +217,11 @@ O Refresh Token é uma técnica utilizada para renovar o token de autenticação
 O Refresh Token é armazenado com segurança, geralmente em um cookie HttpOnly, para que não possa ser acessado por scripts do lado do cliente. Quando o Access Token expira, o cliente envia o Refresh Token ao servidor para obter um novo Access Token válido. Isso permite que os usuários permaneçam conectados por um longo período sem precisar fazer login repetidamente.
 
 O uso de Refresh Tokens é uma prática de segurança recomendada em aplicações web, uma vez que ajuda a minimizar o risco de acesso não autorizado por terceiros, especialmente se o token de autenticação for roubado ou comprometido. 
+
+## Implementação do refresh token
+- Nesta aula, será realizada a implementação do controller de refresh token, que irá verificar se o token de atualização está presente nos cookies e, se estiver válido, irá gerar um novo token JWT para o usuário, foi feito um tratamento no .set(Cookies, CookieString) pra validar o retorno correto do parâmetro.
+
+
+
+
+
