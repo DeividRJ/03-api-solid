@@ -227,6 +227,7 @@ RBAC (Role-Based Access Control) é um modelo de controle de acesso baseado em f
 
 Na aula, será explicado como funciona esse modelo e como implementar a validação RBAC na aplicação. Isso inclui a criação de funções de usuário com permissões específicas e a validação dessas permissões em rotas e controllers. A implementação adequada do RBAC pode ajudar a garantir que apenas usuários autorizados possam acessar determinadas partes da aplicação e realizar ações específicas.
 
-
+## Testes de RBAC
+- Nessa aula, o objetivo é corrigir os testes que quebraram após a implementação da validação de role na aplicação. Será necessário ajustar os testes para passar a informação correta de role para as rotas, de acordo com a nova política de RBAC.
 
 
