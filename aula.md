@@ -203,3 +203,17 @@ Nesta aula, vamos mergulhar na construção de testes end-to-end para nossa apli
 
 ## Controllers & Testes E2E - Testes E2E de rotas de check-ins
 - Nessa aula, serão criados os testes e2e para as rotas do recurso de check-ins, utilizando o Supertest e a função utilitária criada anteriormente para autenticar um usuário durante os testes. Serão testadas as funcionalidades de criação de check-in, histórico de check-ins, métricas
+
+* Refresh Token & RBAC  
+
+## Estratégia de refresh de token
+-
+
+ Nessa aula, será explicado o conceito de Refresh Token no contexto de JWT, e será feita a implementação inicial, onde o refresh token será retornado por meio de cookies(foi usado o npm i @fastify/cookie).
+
+Sobre Refresh Token
+O Refresh Token é uma técnica utilizada para renovar o token de autenticação após seu tempo de validade expirar. O Refresh Token é um token de longa duração que é gerado quando o usuário faz login com suas credenciais. Esse token é usado para obter um novo Access Token quando o antigo expira.
+
+O Refresh Token é armazenado com segurança, geralmente em um cookie HttpOnly, para que não possa ser acessado por scripts do lado do cliente. Quando o Access Token expira, o cliente envia o Refresh Token ao servidor para obter um novo Access Token válido. Isso permite que os usuários permaneçam conectados por um longo período sem precisar fazer login repetidamente.
+
+O uso de Refresh Tokens é uma prática de segurança recomendada em aplicações web, uma vez que ajuda a minimizar o risco de acesso não autorizado por terceiros, especialmente se o token de autenticação for roubado ou comprometido. 
